@@ -1,0 +1,95 @@
+.hero{
+    position: relative;
+    display: grid;
+    grid-template-rows: 1fr;
+    min-width: auto;
+    max-width: 1000px;
+    align-self: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 20px;
+    border-radius: 1rem;
+
+    background: rgba( 82, 82, 82, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10px );
+    -webkit-backdrop-filter: blur( 4px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.top{
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.text p{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+.text h1{
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(250, 250, 106);
+}
+.textpara p{
+    margin: 5px;
+    font-size: 20px;
+    margin-top: 2px;
+    color: white;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.image-container{
+    margin: 20px;
+    border-radius: 1rem;
+    padding-top: -20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.image-container:hover{
+    transform: scale(0.95);
+}
+.image-container a{
+    text-decoration: none;
+}
+.anime-image{
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 180px;
+    height: 180px;
+}
+.image-container h2{
+    color: white;
+    font-size: 20px;
+}
+.image-container p{
+    color: white;
+    font-size: 15px;
+}
+@media(max-width:768px){
+    .hero{
+        margin-left: clamp(50px, 10vw, 15%);
+        margin-right: clamp(50px, 10vw, 15%);
+    }
+    .top{
+        grid-template-columns: 1fr;
+    }
+    .bottom{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:768.1px) and (max-width:1200px){
+    .bottom{
+        grid-template-columns: 1fr 1fr;
+    }
+    .hero{
+        margin-left: clamp(50px, 10vw, 15%);
+        margin-right: clamp(50px, 10vw, 15%);
+    }
+}
