@@ -5,7 +5,7 @@
     object-fit: cover;
   }
   body{
-    background-image: url(/images/wallhaven-8x2j6j.png);
+    background-image: url(/images/wallhaven-8x2j6j.webp);
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,7 +15,7 @@
     z-index: -2;
   }
   .bg-image{
-    background-image: url(/images/wallhaven-8x2j6j.png);
+    background-image: url(/images/wallhaven-8x2j6j.webp);
     background-color: black;
     background-repeat: no-repeat;
     background-position: center;
