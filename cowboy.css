@@ -7,7 +7,7 @@
   body{
     body {
       background-color: black;
-      background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+      background-image: url('/images/img1.webp'); /* Replace with your image URL */
       background-repeat: no-repeat;
       background-position: center center;
       background-attachment: fixed;

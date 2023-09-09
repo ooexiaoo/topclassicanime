@@ -9,7 +9,10 @@ window.onload = function () {
     });
 }
 
+var currentPage = window.location.pathname;
+console.log(currentPage);
 // Background image randomization
+if (currentPage === '/berserk.html' || currentPage === '/cowboy.html' || currentPage === '/gate.html' || currentPage === '/fullmetal.html') {
 document.addEventListener("DOMContentLoaded", function () {
     function pic() {
         var bgm = [
@@ -35,3 +38,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     pic();
 });
+}
