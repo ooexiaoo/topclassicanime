@@ -12,7 +12,7 @@ window.onload = function () {
 var currentPage = window.location.pathname;
 console.log(currentPage);
 // Background image randomization
-if (currentPage === 'https://classicanime.pages.dev/berserk' || currentPage === 'https://classicanime.pages.dev/cowboy' || currentPage === 'https://classicanime.pages.dev/gate' || currentPage === 'https://classicanime.pages.dev/fullmetal') {
+if (currentPage === '/berserk' || currentPage === '/cowboy' || currentPage === '/gate' || currentPage === '/fullmetal') {
 document.addEventListener("DOMContentLoaded", function () {
     function pic() {
         var bgm = [
